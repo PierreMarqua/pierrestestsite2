@@ -1,0 +1,172 @@
+/* basic site styles */
+
+body {
+	background-color: #E8E8E8;
+	background-image: url('../img/wool.png');
+}
+
+#container {
+	width: 60%;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+
+/* header styles */
+
+.header {
+	background-color: pink;
+	background-image: url('../img/tube.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 50px;
+}
+
+#logo {
+	background-image: url('../img/acme2.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 300px;
+	height: 135px;
+	text-indent: -9999px;
+	border: 0;
+	margin: 20px auto 10px auto;
+	padding: 20px;
+}
+
+.header h2 {
+	color: white;
+	font-family: "Comic Sans MS", verdana, cursive, sans-serif;
+	text-align: center;
+	padding: 20px;
+	font-size: 2em;
+}
+
+/* navigation styles */
+
+#menu {
+	width: 100%;
+	height: 35px;
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	background-color: #8AD9FF; /* fallback for older browsers */
+	background-color: rgba(138, 217, 255, 0.8);
+}
+
+#menu ul {
+	height: auto;
+	padding: 8px 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+#menu li {
+	display: inline;
+	padding: 20px;
+}
+
+#menu a {
+	text-decoration: none;
+	color: #000;
+	padding: 8px; 
+}
+
+#menu a:hover {
+	color: #F90;
+	background-color: #FFF;
+}
+
+/* content section */
+
+.section {
+	font-family: verdana, arial, sans-serif;
+	font-size: 95%;
+	color: #000;
+	padding: 30px;
+
+}
+
+.section h2, .section h3 {
+	font-family: impact, sans-serif;
+}
+
+.section h2 {
+	color: blue;
+	font-size: 3em;
+}
+
+#footer {
+	width: 100%;
+	height: 35px;
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	background-color: #787878; /* fallback for older browsers */
+	
+
+}
+#footer ul {
+	height: auto;
+	padding: 8px 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+#footer li {
+	display: inline;
+	padding: 20px;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #000;
+	padding: 8px; 
+}
+
+#footer a:hover {
+	color: #F90;
+	background-color: #FFF;
+}
+
+#footer small {
+	text-transform: uppercase;
+	padding-bottom: 30px;
+	color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
